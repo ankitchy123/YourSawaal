@@ -42,7 +42,7 @@ app.use(express.urlencoded({ extended: false }))
 app.use(cookieParser())
 
 app.use(require("express-session")({
-    secret: "The milk would do that",
+    secret: "The milk would do that...",
     resave: false,
     saveUninitialized: false
 }));
